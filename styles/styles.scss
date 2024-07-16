@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+body{
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #7658CA;
+    width: 30%;
+    height: 440px;
+    margin-top: 60px;
+    border-radius: 5px;
+
+    h2 {
+        text-align: center;
+        
+    }
+
+    .resultado {
+        display: flex;
+        align-items: center;
+        background-color: #221f1f;
+        width: 80%;
+        height: 55px;
+        color: #fff;
+        font-size: 18px;
+        border-radius: 6px;
+        margin-bottom: 5px;
+        box-shadow: 3px 3px 3px gray;
+        margin: 20px 20px;
+    }
+
+    .container2 {
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        row-gap: 10px;
+        column-gap: 10px;
+
+        #num1,
+        #num2,
+        #num3,
+        #num4,
+        #num5,
+        #num6,
+        #num7,
+        #num8,
+        #num9,
+        #plus,
+        #delete,
+        #num0,
+        #multiplicacao,
+        #igual,
+        #dividir,
+        #menos {
+            height: 63px;
+            cursor: pointer;
+            background-color: #fff;
+            color: #000;
+            border-radius: 6px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 5px 5px 3px gray;
+            font-size: 18px;
+
+            &:hover {
+                background-color: #dbdbdb;
+                transform: scale(1.1);
+            }
+        }
+    }
+}

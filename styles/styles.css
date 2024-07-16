@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+body {
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #7658CA;
+  width: 30%;
+  height: 440px;
+  margin-top: 60px;
+  border-radius: 5px;
+}
+.container h2 {
+  text-align: center;
+}
+.container .resultado {
+  display: flex;
+  align-items: center;
+  background-color: #221f1f;
+  width: 80%;
+  height: 55px;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+  box-shadow: 3px 3px 3px gray;
+  margin: 20px 20px;
+}
+.container .container2 {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  row-gap: 10px;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.container .container2 #num1,
+.container .container2 #num2,
+.container .container2 #num3,
+.container .container2 #num4,
+.container .container2 #num5,
+.container .container2 #num6,
+.container .container2 #num7,
+.container .container2 #num8,
+.container .container2 #num9,
+.container .container2 #plus,
+.container .container2 #delete,
+.container .container2 #num0,
+.container .container2 #multiplicacao,
+.container .container2 #igual,
+.container .container2 #dividir,
+.container .container2 #menos {
+  height: 63px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border-radius: 6px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 5px 5px 3px gray;
+  font-size: 18px;
+}
+.container .container2 #num1:hover,
+.container .container2 #num2:hover,
+.container .container2 #num3:hover,
+.container .container2 #num4:hover,
+.container .container2 #num5:hover,
+.container .container2 #num6:hover,
+.container .container2 #num7:hover,
+.container .container2 #num8:hover,
+.container .container2 #num9:hover,
+.container .container2 #plus:hover,
+.container .container2 #delete:hover,
+.container .container2 #num0:hover,
+.container .container2 #multiplicacao:hover,
+.container .container2 #igual:hover,
+.container .container2 #dividir:hover,
+.container .container2 #menos:hover {
+  background-color: #dbdbdb;
+  transform: scale(1.1);
+}/*# sourceMappingURL=styles.css.map */
